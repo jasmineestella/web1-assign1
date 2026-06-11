@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(255, 186, 246);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color:rgb(157, 0, 255);
+    
+    
+}
+header, footer{
+    background-color: rgb(153, 255, 0);
+    text-emphasis-color:rgb(255, 152, 18)
+}
+a{
+    color:rgb(238, 0, 255)
+}
+a:hover{
+    color:aqua;
+}
+a:active{
+    color: blueviolet;
+}
