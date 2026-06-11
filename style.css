@@ -1,21 +1,51 @@
+/* added body to start my CSS body */
 body{
+    /* added background color to change the backgroud of my page*/
     background-color: rgb(255, 186, 246);
+    /* set font family to sans-serif fonts */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* set the font size to 18px as instructed */
     font-size: 18px;
+    /* set the color border and padding */
     color:rgb(157, 0, 255);
-    
-    
+    border:dotted 18px;
+    padding:5px;
 }
+/* added to my div tag to set body margin */
+#container{
+    margin: 0 40px;
+
+} 
+ /* created site title class and set the color*/   
+.site-title{
+    color:rgb(255, 162, 0)
+}
+/* added a box shadow to image */
+#my-image{
+    box-shadow: 0 0 1px 2px black;
+}
+/* changed bullet from circle to square */
+ul{
+    list-style-type: square;
+}     
+/* changed header and footer's background color, border and padding */
 header, footer{
     background-color: rgb(153, 255, 0);
-    text-emphasis-color:rgb(255, 152, 18)
+    border:dotted 10px;
+    padding: 7px;   
 }
+/* set features for the a tag for my link in each state, normal, hover and, active */
 a{
-    color:rgb(238, 0, 255)
+    text-decoration: none;
+    color:rgb(238, 0, 255);
+    background-color:rgb(255, 247, 0);
+    border:dotted 5px;
 }
 a:hover{
     color:aqua;
+    background-color:rgb(255, 0, 238);
 }
 a:active{
-    color: blueviolet;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
 }
