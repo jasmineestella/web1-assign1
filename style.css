@@ -10,6 +10,7 @@ body{
     color:rgb(157, 0, 255);
     border:dotted 18px;
     padding:5px;
+
 }
 /* added to my div tag to set body margin */
 #container{
@@ -32,7 +33,7 @@ ul{
 header, footer{
     background-color: rgb(153, 255, 0);
     border:dotted 10px;
-    padding: 7px;   
+    padding: 7px;
 }
 /* set features for the a tag for my link in each state, normal, hover and, active */
 a{
